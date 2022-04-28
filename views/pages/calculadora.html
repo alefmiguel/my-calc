@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 
 <head>
     <title> Calculadora Online </title>
@@ -8,14 +8,17 @@
 </head>
 
 <body onkeypress="manipularTeclado()">
+
+    <h1 class="h1-main"> CALCULATOR </h1>
+
     <table class="tabela-calculadora">
         <tr>
             <td colspan="6"><input type="text" class="table-button-principal" id="display" value="0" disabled></td>
         </tr>
         <tr>
-            <td><input class="table-button" type="button" value="7" onclick="atualizarDisplay(this)" /></td>
-            <td><input class="table-button" type="button" value="8" onclick="atualizarDisplay(this)" /></td>
-            <td><input class="table-button" type="button" value="9" onclick="atualizarDisplay(this)" /></td>
+            <td><input class="table-button" type="button" value="1" onclick="atualizarDisplay(this)" /></td>
+            <td><input class="table-button" type="button" value="2" onclick="atualizarDisplay(this)" /></td>
+            <td><input class="table-button" type="button" value="3" onclick="atualizarDisplay(this)" /></td>
             <td><input class="table-button" type="button" value="*" onclick="atualizarOperacao(this)" /></td>
         </tr>
         <tr>
@@ -25,9 +28,9 @@
             <td><input class="table-button" type="button" value="-" onclick="atualizarOperacao(this)" /></td>
         </tr>
         <tr>
-            <td><input class="table-button" type="button" value="1" onclick="atualizarDisplay(this)" /></td>
-            <td><input class="table-button" type="button" value="2" onclick="atualizarDisplay(this)" /></td>
-            <td><input class="table-button" type="button" value="3" onclick="atualizarDisplay(this)" /></td>
+            <td><input class="table-button" type="button" value="7" onclick="atualizarDisplay(this)" /></td>
+            <td><input class="table-button" type="button" value="8" onclick="atualizarDisplay(this)" /></td>
+            <td><input class="table-button" type="button" value="9" onclick="atualizarDisplay(this)" /></td>
             <td><input class="table-button" type="button" value="+" onclick="atualizarOperacao(this)" /></td>
         </tr>
         <tr>
