@@ -16,6 +16,7 @@ body {
 }
 
 .table-button {
+    position: relative;
     width: 120%;
     display: flex;
     width: 6em;
@@ -32,7 +33,7 @@ body {
 
 .table-button:hover {
     opacity: .5;
-    top: -2px;
+    top: -4px;
     transition-delay: 20ms;
 }
 
