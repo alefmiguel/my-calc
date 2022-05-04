@@ -32,8 +32,6 @@ body {
 
 .table-button:hover {
     opacity: .5;
-    width: 0.1%;
-    height: 0.1%;
     transition-delay: 20ms;
 }
 
