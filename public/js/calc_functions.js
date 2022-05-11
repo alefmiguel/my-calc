@@ -30,3 +30,7 @@ function manipularTeclado(){
     if(/[0-9]/.test(event.key))
         atualizarDisplay({value: event.key});
 }
+
+function insert(num) {
+    document.getElementsById('display').innerHTML = num;
+}
